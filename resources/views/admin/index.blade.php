@@ -40,7 +40,7 @@ body {
 	position: relative;
 }
 ._body-inner {
-  /*  min-height:80vh;*/
+    min-height:80vh;
     position: relative;
 }
 ._body-inner .sidenav {
@@ -58,11 +58,13 @@ body {
     font-weight: bold;
     font-family: monospace;
     margin-top:10px; 
+    margin-left: 20px;
 
 }
 .form input{
 	width: 28%;
   height: 33px;
+
 
 }
 </style>
@@ -77,13 +79,19 @@ body {
 					  	<a href="#contact">Contact</a>
 					</div>
         		</div>
-        		<div class="col-md-5">
+        		<div class="col-md-7">
         			<h4> Create Course </h4>
         			<hr>
-        			 <div class="form">			        	
-			        	<p class="field_name">Course Name</p><input class="fields" type="text">
-                <p class="field_name">Course Price</p><input class="fields" type="text">
-			        </div>
+          			 <div class="form">
+                      <div class="row">			        	   
+                          <div class="col-md-6">               
+                          <span class="field_name" >Course Name </span><input class="fields" type="text" style="width: 60%;">
+                          </div>
+                          <div class="col-md-5  "> 
+                          <span class="field_name">Course Price </span><input class="fields" type="text">
+                          </div>
+                      </div>
+  			          </div>
         		</div>
         	</div>
         
